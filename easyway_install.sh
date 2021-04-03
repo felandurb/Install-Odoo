@@ -62,6 +62,15 @@ cp /root/Install-Odoo/odoo.conf /etc/odoo/odoo.conf
 
 service odoo restart
 
+#Instalando nginx
+sudo apt install nginx
+
+ufw enable
+ufw allow 22
+ufw allow 8069
+ufw allow "Nginx HTTP"
+ufw allow "Nginx HTTPS"
+
 #Descargar enterprise
 #git clone --branch ${odoov} --single-branch https://github.com/odoo/enterprise.git
 #mkdir /opt/odoo/enterprise
