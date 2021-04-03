@@ -58,7 +58,7 @@ cd l10n_cl_fe
 
 pip install -r requirements.txt
 
-cp /root/odoo.conf /etc/odoo/odoo.conf
+cp /root/Install-Odoo/odoo.conf /etc/odoo/odoo.conf
 
 service odoo restart
 
