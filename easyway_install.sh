@@ -71,6 +71,8 @@ ufw allow 8069
 ufw allow "Nginx HTTP"
 ufw allow "Nginx HTTPS"
 
+cp /root/Install-Odoo/default /etc/nginx/sites-available/modificar
+
 #Descargar enterprise
 #git clone --branch ${odoov} --single-branch https://github.com/odoo/enterprise.git
 #mkdir /opt/odoo/enterprise
