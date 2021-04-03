@@ -43,6 +43,7 @@ dpkg -i download/wkhtmltox_0.12.5-1.bionic_amd64.deb
 
 rm -R download/
 
+mkdir /opt/odoo
 mkdir /opt/odoo/addons
 
 cd /opt/odoo/addons
