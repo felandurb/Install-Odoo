@@ -48,11 +48,11 @@ mkdir /opt/odoo/addons
 
 cd /opt/odoo/addons
 
-git clone --branch 12.0 https://gitlab.com/dansanti/l10n_cl_fe.git
-git clone --branch 12.0 https://gitlab.com/dansanti/payment_webpay.git
-git clone --branch 12.0 https://gitlab.com/dansanti/l10n_cl_dte_point_of_sale.git
-git clone --branch 12.0 https://github.com/KonosCL/addons-konos.git
-git clone --branch 12.0 https://github.com/OCA/reporting-engine.git
+echo "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/l10n_cl_fe.git"
+echo "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/payment_webpay.git"
+echo "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/l10n_cl_dte_point_of_sale.git"
+echo "git clone --branch ${odoov}.0 https://github.com/KonosCL/addons-konos.git"
+echo "git clone --branch ${odoov}.0 https://github.com/OCA/reporting-engine.git"
 
 cd l10n_cl_fe
 
