@@ -58,7 +58,9 @@ cd l10n_cl_fe
 
 pip install -r requirements.txt
 
-#service odoo restart
+cp /root/odoo.conf /etc/odoo/odoo.conf
+
+service odoo restart
 
 #Descargar enterprise
 #git clone --branch ${odoov} --single-branch https://github.com/odoo/enterprise.git
