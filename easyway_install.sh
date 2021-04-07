@@ -53,6 +53,7 @@ eval "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/payment_webpay.g
 eval "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/l10n_cl_dte_point_of_sale.git"
 eval "git clone --branch ${odoov}.0 https://github.com/KonosCL/addons-konos.git"
 eval "git clone --branch ${odoov}.0 https://github.com/OCA/reporting-engine.git"
+eval "git clone --branch 14.0 https://github.com/OCA/server-ux.git"
 
 cd l10n_cl_fe
 
