@@ -2,8 +2,8 @@
 Instalacion de odoo 12 con facturacion electronica Dansanti
 
 
-sudo chmod +x odoo_install.sh
-sudo ./odoo_install.sh
+sudo chmod +x easyway_install.sh
+sudo ./easyway_install.sh
 
 instalar https
 sudo apt-get install certbot
