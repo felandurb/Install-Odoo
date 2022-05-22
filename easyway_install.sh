@@ -36,6 +36,8 @@ update
 
 apt install odoo python3-dev python3-pip xfonts-75dpi xfonts-base -y
 pip3 install --upgrade pip
+pip3 install transbank-sdk
+
 
 #Configuración
 ##wkhtmltopdf
