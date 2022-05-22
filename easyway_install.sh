@@ -54,6 +54,7 @@ eval "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/l10n_cl_dte_poin
 eval "git clone --branch ${odoov}.0 https://github.com/KonosCL/addons-konos.git"
 eval "git clone --branch ${odoov}.0 https://github.com/OCA/reporting-engine.git"
 eval "git clone --branch ${odoov}.0 https://github.com/OCA/server-ux.git"
+eval "git clone --branch ${odoov}.0 https://gitlab.com/dansanti/payment_currency.git"
 
 cd l10n_cl_fe
 
