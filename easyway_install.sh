@@ -7,7 +7,7 @@ function update(){
 	apt autoremove -y
 }
 
-odoov=12
+odoov=14
 
 #Instalación de repositorio multiverse y actualización de addons de forma automatica (ubuntu 18.04)
 add-apt-repository multiverse
@@ -36,7 +36,7 @@ update
 
 apt install odoo python3-dev python3-pip xfonts-75dpi xfonts-base -y
 pip3 install --upgrade pip
-pip3 install transbank-sdk
+pip3 install transbank-sdk==2.0.0
 
 
 #Configuración
